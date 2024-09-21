@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="body">
+
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo/Screenshot_2024-09-18_191411-removebg-preview.png" alt="Logo" width="100">
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="portfolio.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-btn">MENU ☰</div>
+        </div>
+    </header>
+    <section class="hero-section">
+        <h1>ABOUT US</h1>
+
+    </section>
+
+
+    <section class="bedroom">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-down">
+                    <img src="img/img2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h1 class=" display-5 fw-bold text-body-emphasis lh-1 mb-3">Our Story</h1>
+                    <p class="lead">Founded with a love for beautiful and functional spaces, Home Styler began as a small design consultancy. Over the years, we have grown into a full-service interior styling company, helping homeowners create personalized, stylish, and comfortable living spaces. Our mission is simple: to make home design accessible, affordable, and inspiring..</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="what container" data-aos="fade-up">
+        <div class="row">
+            <h1>What We Do
+            </h1>
+
+        </div>
+        <div class="row">
+            <p class="lead">At Home Styler, we offer a range of home styling services tailored to your unique tastes and needs. Whether you're looking to refresh a single room, redesign your entire home, or explore new trends in interior decor, we provide expert guidance at every step. From contemporary to classic, minimalist to eclectic, we help you achieve the look and feel you’ve always wanted.</p>
+        </div>
+    </div>
+
+    <section class="bedroom py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-down">
+                    <img src="living_img/l4.jpg" class="d-block mx-lg-auto img-fluid" alt="Bedroom" loading="lazy">
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h1 class="headings display-5 fw-bold text-body-emphasis lh-1 mb-3">Our Approach</h1>
+                    <p class="lead">We believe that a well-designed home reflects the personality of those who live in it. That's why we take a client-centered approach, collaborating closely with you to ensure that your vision becomes reality. We combine the latest design trends with timeless principles to create spaces that are not only stylish but also practical.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" data-aos="fade-up">
+        <h1 class="headings">Why Choose Us?</h1>
+        <ul class="lead">
+            <li>Personalized Designs: We focus on creating designs that match your lifestyle and preferences. </li>
+            <li>Expert Team: Our team of experienced designers and stylists are dedicated to delivering high-quality results.</li>
+            <li>Affordable Solutions: We believe good design should be available to everyone, regardless of budget.</li>
+            <li>Sustainability: We prioritize sustainable materials and eco-friendly practices in our designs.</li>
+        </ul>
+    </div>
+
+
+
+
+
+    <section>
+        <div class="container-fluide">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link px-2 text-body-secondary">Product</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const nav = document.querySelector('nav');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
